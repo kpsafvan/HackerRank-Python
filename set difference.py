@@ -1,0 +1,7 @@
+n = input()
+na = set(input().split())
+m=input()
+ma=set(input().split())
+s = na.difference(ma)
+str(s)
+print(len(s))
